@@ -1,15 +1,18 @@
 package active.since93.pdfreader;
 
-import java.util.Locale;
-
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends ActionBarActivity {
+import java.util.Locale;
+
+/**
+ * Created by darshan.parikh on 18-Sep-15.
+ */
+public class MainActivity extends AppCompatActivity {
 
 	private TextView textView;
 	private Button speakBtn, btnStop;
